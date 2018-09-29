@@ -21,6 +21,7 @@
 	<modules>
 		<module>cloud-eureka</module>
 		<module>cloud-admin-service</module>
+		<module>wh-admin</module>
 	</modules>
 
 	<properties>
