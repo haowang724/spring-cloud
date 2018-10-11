@@ -1,0 +1,11 @@
+server:
+  port: 9999
+
+spring:
+  application:
+      name: wh-admin
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

@@ -3,10 +3,9 @@ server:
 
 spring:
   application:
-    name:  eureka-client
-spring:
+      name: eureka-client
   datasource:
-    url: jdbc:mysql://118.24.5.244:3306/test?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://118.24.5.244:3306/wh_admin?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: root
