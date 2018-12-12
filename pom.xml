@@ -22,6 +22,7 @@
 		<module>cloud-eureka</module>
 		<module>cloud-admin-service</module>
 		<module>wh-admin</module>
+		<module>cloud-ribbon-consumer</module>
 	</modules>
 
 	<properties>
