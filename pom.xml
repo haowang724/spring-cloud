@@ -23,6 +23,7 @@
 		<module>cloud-admin-service</module>
 		<module>wh-admin</module>
 		<module>cloud-ribbon-consumer</module>
+		<module>cloud-consumer-feign</module>
 	</modules>
 
 	<properties>

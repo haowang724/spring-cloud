@@ -13,13 +13,13 @@ public class DocApi {
 
    @RequestMapping(method = RequestMethod.GET,value = "/dc")
    public String dc(){
-       try {
-           Thread.sleep(5000L);
-       } catch (InterruptedException e){
-           e.printStackTrace();
-       }
+//       try {
+//           Thread.sleep(5000L);
+//       } catch (InterruptedException e){
+//           e.printStackTrace();
+//       }
        String services = "Services: "+ discoveryClient.getServices();
-       System.out.printf(services);
+       System.out.println(services);
        return services;
    }
 }
