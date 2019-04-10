@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/haowang724/cloud-config-demo
+          profile: default
+          label: master
+server:
+  port: 1201
