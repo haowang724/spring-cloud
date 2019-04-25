@@ -24,6 +24,7 @@
 		<module>wh-admin</module>
 		<module>cloud-ribbon-consumer</module>
 		<module>cloud-consumer-feign</module>
+		<module>spring-hystrix-dashboard</module>
 	</modules>
 
 	<properties>
